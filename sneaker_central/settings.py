@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-htm9l-acgb_)d09*xv4zg_us9+%0baf54taw6++zdetz_)a((6
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['sneakercentral.herokuapp.com', 'localhost']
 
 
 # Application definition
