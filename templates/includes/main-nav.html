@@ -13,28 +13,30 @@
         </li>
 
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black" href="#" id="specials-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="logo-font font-weight-bold nav-link text-black" href="#" id="mens-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Men's Sneakers
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="specials-link">
-                <a href="" class="dropdown-item">Men's Adidas</a>
-                <a href="" class="dropdown-item">Men's Converse</a>
-                <a href="" class="dropdown-item">Men's Nike</a>
-                <a href="" class="dropdown-item">Men's Puma</a>
-                <a href="" class="dropdown-item">Men's Reebok</a>
+            <div class="dropdown-menu border-0" aria-labelledby="mens-link">
+                <a href="{% url 'products' %}?category=adidas_men,converse_men,nike_men,puma_men,reebok_men" class="dropdown-item">All mens</a>
+                <a href="{% url 'products' %}?category=adidas_men" class="dropdown-item">Adidas mens</a>
+                <a href="{% url 'products' %}?category=converse_men" class="dropdown-item">Converse mens</a>
+                <a href="{% url 'products' %}?category=nike_men" class="dropdown-item">Nike mens</a>
+                <a href="{% url 'products' %}?category=puma_men" class="dropdown-item">Puma mens</a>
+                <a href="{% url 'products' %}?category=reebok_men" class="dropdown-item">Reebok mens</a>
             </div>
         </li>
 
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black" href="#" id="specials-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="logo-font font-weight-bold nav-link text-black" href="#" id="womens-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Women's Sneakers
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="specials-link">
-                <a href="" class="dropdown-item">Women's Adidas</a>
-                <a href="" class="dropdown-item">Women's Converse</a>
-                <a href="" class="dropdown-item">Women's Nike</a>
-                <a href="" class="dropdown-item">Women's Puma</a>
-                <a href="" class="dropdown-item">Women's Reebok</a>
+            <div class="dropdown-menu border-0" aria-labelledby="womens-link">
+                <a href="{% url 'products' %}?category=adidas_women,converse_women,nike_women,puma_women,reebok_women" class="dropdown-item">All womens</a>
+                <a href="{% url 'products' %}?category=adidas_women" class="dropdown-item">Adidas womens</a>
+                <a href="{% url 'products' %}?category=converse_women" class="dropdown-item">Converse womens</a>
+                <a href="{% url 'products' %}?category=nike_women" class="dropdown-item">Nike womens</a>
+                <a href="{% url 'products' %}?category=puma_women" class="dropdown-item">Puma womens</a>
+                <a href="{% url 'products' %}?category=reebok_women" class="dropdown-item">Reebok womens</a>
             </div>
         </li>
         
