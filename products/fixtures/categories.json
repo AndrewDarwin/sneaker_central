@@ -1,0 +1,82 @@
+[
+   {
+      "pk":1,
+      "model":"products.category",
+      "fields":{
+         "name":"adidas_men",
+         "friendly_name":"Adidas Men"
+      }
+   },
+   {
+      "pk":2,
+      "model":"products.category",
+      "fields":{
+         "name":"converse_men",
+         "friendly_name":"Converse Men"
+      }
+   },
+   {
+      "pk":3,
+      "model":"products.category",
+      "fields":{
+         "name":"nike_men",
+         "friendly_name":"Nike Men"
+      }
+   },
+   {
+      "pk":4,
+      "model":"products.category",
+      "fields":{
+         "name":"puma_men",
+         "friendly_name":"Puma Men"
+      }
+   },
+   {
+      "pk":5,
+      "model":"products.category",
+      "fields":{
+         "name":"reebok_men",
+         "friendly_name":"Reebok Men"
+      }
+   },
+   {
+      "pk":6,
+      "model":"products.category",
+      "fields":{
+         "name":"adidas_women",
+         "friendly_name":"Adidas Women"
+      }
+   },
+   {
+      "pk":7,
+      "model":"products.category",
+      "fields":{
+         "name":"converse_women",
+         "friendly_name":"Converse Women"
+      }
+   },
+   {
+      "pk":8,
+      "model":"products.category",
+      "fields":{
+         "name":"nike_women",
+         "friendly_name":"Nike Women"
+      }
+   },
+   {
+      "pk":9,
+      "model":"products.category",
+      "fields":{
+         "name":"puma_women",
+         "friendly_name":"Puma Women"
+      }
+   },
+   {
+      "pk":10,
+      "model":"products.category",
+      "fields":{
+         "name":"reebok_women",
+         "friendly_name":"Reebok Women"
+      }
+   }
+]

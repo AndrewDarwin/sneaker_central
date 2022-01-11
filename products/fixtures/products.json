@@ -1,0 +1,702 @@
+[
+   {
+      "pk":1,
+      "model":"products.product",
+      "fields":{
+         "sku":"ad001",
+         "name":"Adidas Forum",
+         "description":"Stylish blue and white Adidas shoe",
+         "price":70.00,
+         "category":1,
+         "rating":4.6,
+         "image_url":"https://sneakers123.s3.amazonaws.com/release/258323/adidas-forum-fy7756.jpg",
+         "image":"adidasforum.jpg"
+      }
+   },
+   {
+      "pk":2,
+      "model":"products.product",
+      "fields":{
+         "sku":"ad002",
+         "name":"Adidas Gazelle",
+         "description":"Classic black and white Adidas Gazelle",
+         "price":75.00,
+         "category":1,
+         "rating":4.4,
+         "image_url":"https://sneakers123.s3.amazonaws.com/release/32954/adidas-gazelle-bb5476.jpg",
+         "image":"adidasgazelle.jpg"
+      }
+   },
+   {
+      "pk":3,
+      "model":"products.product",
+      "fields":{
+         "sku":"ad003",
+         "name":"Adidas NMD R1",
+         "description":"A classic Adidas trainer given a modern upgrade",
+         "price":90.00,
+         "category":1,
+         "rating":4.5,
+         "image_url":"https://sneakers123.s3.amazonaws.com/release/236868/adidas-nmd-r1-fy5727.jpg",
+         "image":"adidasnmdr1.jpg"
+      }
+   },
+   {
+      "pk":4,
+      "model":"products.product",
+      "fields":{
+         "sku":"ad004",
+         "name":"Adidas ZX 420",
+         "description":"Beautiful blue leather suede Adidas sneaker",
+         "price":80.00,
+         "category":1,
+         "rating":4.6,
+         "image_url":"https://sneakers123.s3.amazonaws.com/release/264699/adidas-zx-420-fz0145.jpg",
+         "image":"adidaszx420.jpg"
+      }
+   },
+   {
+      "pk":5,
+      "model":"products.product",
+      "fields":{
+         "sku":"ad005",
+         "name":"Adidas ZX 500",
+         "description":"Black and gold Adidas leather and suede shoe",
+         "price":100.00,
+         "category":1,
+         "rating":4.8,
+         "image_url":"https://sneakers123.s3.amazonaws.com/release/289557/adidas-zx-500-h02107.jpg",
+         "image":"adidaszx500a.jpg"
+      }
+   },
+   {
+      "pk":6,
+      "model":"products.product",
+      "fields":{
+         "sku":"con001",
+         "name":"Converse Chuck 70 HI",
+         "description":"Classic burgundy Converse hi top",
+         "price":70.00,
+         "category":2,
+         "rating":4.3,
+         "image_url":"https://sneakers123.s3.amazonaws.com/release/288259/converse-chuck-70-hi-171567c-1.jpg",
+         "image":"conversechuck70hi.jpg"
+      }
+   },
+   {
+      "pk":7,
+      "model":"products.product",
+      "fields":{
+         "sku":"con002",
+         "name":"Converse Chuck Taylor All Star",
+         "description":"Classic all black Converse All Star hi top boot",
+         "price":60.00,
+         "category":2,
+         "rating":4.7,
+         "image_url":"https://sneakers123.s3.amazonaws.com/release/39498/converse-chuck-taylor-all-star-high-m3310c.jpg",
+         "image":"conversechucktaylorallstar.jpg"
+      }
+   },
+   {
+      "pk":8,
+      "model":"products.product",
+      "fields":{
+         "sku":"con003",
+         "name":"Converse Chuck Taylor All Star Hi",
+         "description":"Classic black and white Converse All Star hi top shoe",
+         "price":55.00,
+         "category":2,
+         "rating":4.4,
+         "image_url":"https://sneakers123.s3.amazonaws.com/release/38135/converse-chuck-taylor-all-star-hi-m9160c.jpg",
+         "image":"conversechucktaylorallstarhia.jpg"
+      }
+   },
+   {
+      "pk":9,
+      "model":"products.product",
+      "fields":{
+         "sku":"con004",
+         "name":"Converse Pro Leather Hi",
+         "description":"Beautiful leather white Converse sneaker with hints of blue and red",
+         "price":50.00,
+         "category":2,
+         "rating":4.8,
+         "image_url":"https://sneakers123.s3.amazonaws.com/release/250424/converse-pro-leather-hi-in-university-170240c.jpg",
+         "image":"converseproleatherhi.jpg"
+      }
+   },
+   {
+      "pk":10,
+      "model":"products.product",
+      "fields":{
+         "sku":"con005",
+         "name":"Converse Pro Leather Ox",
+         "description":"Stylish leather converse white and black trainer",
+         "price":60.00,
+         "category":2,
+         "rating":4.4,
+         "image_url":"https://sneakers123.s3.amazonaws.com/release/155951/converse-pro-leather-ox-167237c.jpg",
+         "image":"converseproleatherox.jpg"
+      }
+   },
+   {
+      "pk":11,
+      "model":"products.product",
+      "fields":{
+         "sku":"ni001",
+         "name":"Nike Blazer Mid Mosaic",
+         "description":"Colourful green and yellow Nike hi top leather trainer",
+         "price":100.00,
+         "category":3,
+         "rating":4.7,
+         "image_url":"https://sneakers123.s3.amazonaws.com/release/307196/nike-blazer-mid-mosaic-da8854-300.jpg",
+         "image":"nikeblazermidmosaic.jpg"
+      }
+   },
+   {
+      "pk":12,
+      "model":"products.product",
+      "fields":{
+         "sku":"ni002",
+         "name":"Nike Challenger OG",
+         "description":"Stylish blue, red and yellow Nike sneaker",
+         "price":95.00,
+         "category":3,
+         "rating":4.9,
+         "image_url":"https://sneakers123.s3.amazonaws.com/release/206532/nike-challenger-og-cw7645-600.jpg",
+         "image":"nikechallengerog.jpg"
+      }
+   },
+   {
+      "pk":13,
+      "model":"products.product",
+      "fields":{
+         "sku":"ni003",
+         "name":"Nike SB Zoom Blazer Mid",
+         "description":"Stylish black and grey Nike hi top shoe",
+         "price":90.00,
+         "category":3,
+         "rating":4.7,
+         "image_url":"https://sneakers123.s3.amazonaws.com/release/274749/nike-sb-zoom-blazer-mid-da8854-001.jpg",
+         "image":"nikesbzoomblazermida.jpg"
+      }
+   },
+   {
+      "pk":14,
+      "model":"products.product",
+      "fields":{
+         "sku":"ni004",
+         "name":"Nike Venture Runner",
+         "description":"Blue suede Nike running shoe",
+         "price":65.00,
+         "category":3,
+         "rating":4.6,
+         "image_url":"https://sneakers123.s3.amazonaws.com/release/317027/nike-venture-runner-cq4557-400.jpg",
+         "image":"nikeventurerunner.jpg"
+      }
+   },
+   {
+      "pk":15,
+      "model":"products.product",
+      "fields":{
+         "sku":"ni005",
+         "name":"Nike Waffle One",
+         "description":"Stylish blue and black Nike trainer",
+         "price":80.00,
+         "category":3,
+         "rating":4.8,
+         "image_url":"https://sneakers123.s3.amazonaws.com/release/273797/nike-waffle-one-dc0481-400.jpg",
+         "image":"nikewaffleone.jpg"
+      }
+   },
+   {
+      "pk":16,
+      "model":"products.product",
+      "fields":{
+         "sku":"pum001",
+         "name":"Puma Suede Classic Xxi",
+         "description":"Classic black Puma suede sneaker",
+         "price":60.00,
+         "category":4,
+         "rating":4.4,
+         "image_url":"https://sneakers123.s3.amazonaws.com/release/231336/puma-suede-classic-xxi-374915-01-2.jpg",
+         "image":"pumasuedeclassicxxi.jpg"
+      }
+   },
+   {
+      "pk":17,
+      "model":"products.product",
+      "fields":{
+         "sku":"pum002",
+         "name":"Puma Suede VTG",
+         "description":"Colourful green and yellow Puma suede trainer",
+         "price":75.00,
+         "category":4,
+         "rating":4.6,
+         "image_url":"https://sneakers123.s3.amazonaws.com/release/270412/puma-suede-vtg-374921-09.jpg",
+         "image":"pumasuadevtg.jpg"
+      }
+   },
+   {
+      "pk":18,
+      "model":"products.product",
+      "fields":{
+         "sku":"pum003",
+         "name":"Puma Vista",
+         "description":"Black leather and suede Puma trainer",
+         "price":60.00,
+         "category":4,
+         "rating":4.5,
+         "image_url":"https://sneakers123.s3.amazonaws.com/release/167166/puma-vista-369365-01.jpg",
+         "image":"pumavista.jpg"
+      }
+   },
+   {
+      "pk":19,
+      "model":"products.product",
+      "fields":{
+         "sku":"pum004",
+         "name":"Puma Wild Rider Layers",
+         "description":"White, blue and red Puma leather trainer with a hint of green",
+         "price":60.00,
+         "category":4,
+         "rating":4.5,
+         "image_url":"https://sneakers123.s3.amazonaws.com/release/263595/puma-wild-rider-layers-380697-01-1.jpg",
+         "image":"pumawildriderlayers.jpg"
+      }
+   },
+   {
+      "pk":20,
+      "model":"products.product",
+      "fields":{
+         "sku":"pum005",
+         "name":"Puma X Fives Suede Classic",
+         "description":"Blue and yellow Puma suede shoe with “Make History Now” on side",
+         "price":70.00,
+         "category":4,
+         "rating":4.6,
+         "image_url":"https://sneakers123.s3.amazonaws.com/release/262383/puma-x-fives-suede-classic-381957-01.jpg",
+         "image":"pumaxfivessuedeclassic.jpg"
+      }
+   },
+   {
+      "pk":21,
+      "model":"products.product",
+      "fields":{
+         "sku":"ree001",
+         "name":"Reebok Cl Nylon M",
+         "description":"Beautiful black and white stylish Reebok trainer",
+         "price":65.00,
+         "category":5,
+         "rating":4.7,
+         "image_url":"https://sneakers123.s3.amazonaws.com/release/198593/reebok-cl-nylon-m-1592.jpg",
+         "image":"reebokclnylonm.jpg"
+      }
+   },
+   {
+      "pk":22,
+      "model":"products.product",
+      "fields":{
+         "sku":"ree002",
+         "name":"Reebok Club C Mid 2",
+         "description":"Classic Reebok white and green tennis shoe",
+         "price":65.00,
+         "category":5,
+         "rating":4.4,
+         "image_url":"https://sneakers123.s3.amazonaws.com/release/271884/reebok-club-c-mid-2-6883.jpg",
+         "image":"reebokclubcmid2"
+      }
+   },
+   {
+      "pk":23,
+      "model":"products.product",
+      "fields":{
+         "sku":"ree003",
+         "name":"Reebok NL Paris",
+         "description":"Black and white Reebok suede trainer",
+         "price":45.00,
+         "category":5,
+         "rating":4.5,
+         "image_url":"https://sneakers123.s3.amazonaws.com/release/236856/reebok-nl-paris-5879.jpg",
+         "image":"reeboknlparis.jpg"
+      }
+   },
+   {
+      "pk":24,
+      "model":"products.product",
+      "fields":{
+         "sku":"ree004",
+         "name":"Reebok Victory G",
+         "description":"Black, white and blue Reebok trainer",
+         "price":120.00,
+         "category":5,
+         "rating":4.3,
+         "image_url":"https://sneakers123.s3.amazonaws.com/release/322910/reebok-victory-g-2456.jpg",
+         "image":"reebokvictoryg.jpg"
+      }
+   },
+   {
+      "pk":25,
+      "model":"products.product",
+      "fields":{
+         "sku":"ree005",
+         "name":"Reebok X Keith Haring Club C Legacy",
+         "description":"Stylish red and cream Reebok sneaker",
+         "price":90.00,
+         "category":5,
+         "rating":4.7,
+         "image_url":"https://sneakers123.s3.amazonaws.com/release/326585/reebok-x-keith-haring-club-c-legacy-1459.jpg",
+         "image":"reebokxkeithharingclubclegacy.jpg"
+      }
+   },
+   {
+      "pk":26,
+      "model":"products.product",
+      "fields":{
+         "sku":"ad006",
+         "name":"Adidas Forum Hazy",
+         "description":"Elegant white and peach Adidas trainer",
+         "price":90.00,
+         "category":6,
+         "rating":4.6,
+         "image_url":"https://sneakers123.s3.amazonaws.com/release/257716/adidas-forum-hazy-g57966.jpg",
+         "image":"adidasforumhazy.jpg"
+      }
+   },
+   {
+      "pk":27,
+      "model":"products.product",
+      "fields":{
+         "sku":"ad007",
+         "name":"Adidas Madrid",
+         "description":"White and purple Adidas Madrid, limited edition",
+         "price":65.00,
+         "category":6,
+         "rating":4.5,
+         "image_url":"https://sneakers123.s3.amazonaws.com/release/260369/adidas-madrid-fx5643.jpg",
+         "image":"adidasmadrid.jpg"
+      }
+   },
+   {
+      "pk":28,
+      "model":"products.product",
+      "fields":{
+         "sku":"ad008",
+         "name":"Adidas Size X Cordoba",
+         "description":"Beautiful 2 shades of Pink Adidas shoe",
+         "price":100.00,
+         "category":6,
+         "rating":4.3,
+         "image_url":"https://sneakers123.s3.amazonaws.com/release/221752/adidas-size-x-cordoba-fw6365.jpg",
+         "image":"adidassizexcorboda.jpg"
+      }
+   },
+   {
+      "pk":29,
+      "model":"products.product",
+      "fields":{
+         "sku":"ad009",
+         "name":"Adidas Stan Smith",
+         "description":"Classic Stan Smith Adidas shoe with a flower style",
+         "price":70.00,
+         "category":6,
+         "rating":4.5,
+         "image_url":"https://sneakers123.s3.amazonaws.com/release/250840/adidas-stan-smith-fx5653.jpg",
+         "image":"adidasstansmith.jpg"
+      }
+   },
+   {
+      "pk":30,
+      "model":"products.product",
+      "fields":{
+         "sku":"ad010",
+         "name":"Adidas ZX 500",
+         "description":"Red, pink and white Adidas sneaker",
+         "price":80.00,
+         "category":6,
+         "rating":4.5,
+         "image_url":"https://sneakers123.s3.amazonaws.com/release/277596/adidas-zx-500-h02109.jpg",
+         "image":"adidaszx500.jpg"
+      }
+   },
+   {
+      "pk":31,
+      "model":"products.product",
+      "fields":{
+         "sku":"con006",
+         "name":"Converse Chuck 70",
+         "description":"Classic cream Converse Chuck hi top boot",
+         "price":90.00,
+         "category":7,
+         "rating":4.3,
+         "image_url":"https://sneakers123.s3.amazonaws.com/release/5658/converse-chuck-70-high-162053c-2.jpg",
+         "image":"conversechuck70.jpg"
+      }
+   },
+   {
+      "pk":32,
+      "model":"products.product",
+      "fields":{
+         "sku":"con007",
+         "name":"Converse Chuck Taylor All Star 70 Ox",
+         "description":"Flower design based cream classic Converse shoe",
+         "price":65.00,
+         "category":7,
+         "rating":4.3,
+         "image_url":"https://sneakers123.s3.amazonaws.com/release/266571/converse-chuck-taylor-all-star-70-ox-570916c.jpg",
+         "image":"conversechucktaylorallstar70.jpg"
+      }
+   },
+   {
+      "pk":33,
+      "model":"products.product",
+      "fields":{
+         "sku":"con008",
+         "name":"Converse Chuck Taylor All Star Hi",
+         "description":"The classic white Converse hi top shoe",
+         "price":55.00,
+         "category":7,
+         "rating":4.5,
+         "image_url":"https://sneakers123.s3.amazonaws.com/release/40617/converse-chuck-taylor-all-star-hi-m7650c-1.jpg",
+         "image":"conversechucktaylorallstarhi.jpg"
+      }
+   },
+   {
+      "pk":34,
+      "model":"products.product",
+      "fields":{
+         "sku":"con009",
+         "name":"Converse Chuck Taylor All Star Ox",
+         "description":"Classic white Converse Chuck Taylor sneaker",
+         "price":65.00,
+         "category":7,
+         "rating":4.3,
+         "image_url":"https://sneakers123.s3.amazonaws.com/release/60216/converse-chuck-taylor-all-star-ox-m7652c-2.jpg",
+         "image":"conversechucktaylorallstarox.jpg"
+      }
+   },
+   {
+      "pk":35,
+      "model":"products.product",
+      "fields":{
+         "sku":"con010",
+         "name":"Converse Space Jam Pro Leather Ox",
+         "description":"Tune Squad basketball themed white Converse trainer",
+         "price":80.00,
+         "category":7,
+         "rating":4.6,
+         "image_url":"https://sneakers123.s3.amazonaws.com/release/277987/converse-space-jam-pro-leather-ox-172481c.jpg",
+         "image":"conversespacejamproleatherox.jpg"
+      }
+   },
+   {
+      "pk":36,
+      "model":"products.product",
+      "fields":{
+         "sku":"ni006",
+         "name":"Nike Air Force 1 Catechu",
+         "description":"White and pink Adidas shoe, with fig design",
+         "price":110.00,
+         "category":8,
+         "rating":4.6,
+         "image_url":"https://sneakers123.s3.amazonaws.com/release/265887/nike-air-force-1-catechu-cz0269-101.jpg",
+         "image":"nikeairforce1catechu.jpg"
+      }
+   },
+   {
+      "pk":37,
+      "model":"products.product",
+      "fields":{
+         "sku":"ni007",
+         "name":"Nike Air Force 1 Shadow",
+         "description":"Pink, yellow and purple colourful Nike shoe",
+         "price":100.00,
+         "category":8,
+         "rating":4.6,
+         "image_url":"https://sneakers123.s3.amazonaws.com/release/272621/nike-air-force-1-shadow-ci0919-700.jpg",
+         "image":"nikeairforce1shadow.jpg"
+      }
+   },
+   {
+      "pk":38,
+      "model":"products.product",
+      "fields":{
+         "sku":"ni008",
+         "name":"Nike Blazer Leather",
+         "description":"Classic white and turquoise leather Nike shoe",
+         "price":70.00,
+         "category":8,
+         "rating":4.5,
+         "image_url":"https://sneakers123.s3.amazonaws.com/release/189871/nike-blazer-leather-ci6377-104.jpg",
+         "image":"nikeblazerleather.jpg"
+      }
+   },
+   {
+      "pk":39,
+      "model":"products.product",
+      "fields":{
+         "sku":"ni009",
+         "name":"Nike Killshot OG",
+         "description":"Yellow, white and black style Nike trainer",
+         "price":60.00,
+         "category":8,
+         "rating":4.2,
+         "image_url":"https://sneakers123.s3.amazonaws.com/release/226428/nike-killshot-og-dc7627-100.jpg",
+         "image":"nikekillshotog.jpg"
+      }
+   },
+   {
+      "pk":40,
+      "model":"products.product",
+      "fields":{
+         "sku":"ni010",
+         "name":"Nike SB Zoom Blazer Mid",
+         "description":"Colourful and vibrant Nike shoe",
+         "price":85.00,
+         "category":8,
+         "rating":4.7,
+         "image_url":"https://sneakers123.s3.amazonaws.com/release/274752/nike-sb-zoom-blazer-mid-da8854-500-1.jpg",
+         "image":"nikesbzoomblazermid.jpg"
+      }
+   },
+   {
+      "pk":41,
+      "model":"products.product",
+      "fields":{
+         "sku":"pum006",
+         "name":"Puma Cali X Sophia Webster",
+         "description":"White and pink style Sophia Webster designed Puma sneaker",
+         "price":70.00,
+         "category":9,
+         "rating":4.4,
+         "image_url":"https://sneakers123.s3.amazonaws.com/release/235622/puma-cali-x-sophia-webster-369517-01.jpg",
+         "image":"pumacalixsophiawebster.jpg"
+      }
+   },
+   {
+      "pk":42,
+      "model":"products.product",
+      "fields":{
+         "sku":"pum007",
+         "name":"Puma Cruise Rider",
+         "description":"Colourful and funky designed Puma shoe",
+         "price":110.00,
+         "category":9,
+         "rating":4.5,
+         "image_url":"https://sneakers123.s3.amazonaws.com/release/322752/puma-cruise-rider-375063-02.jpg",
+         "image":"pumacruiserider.jpg"
+      }
+   },
+   {
+      "pk":43,
+      "model":"products.product",
+      "fields":{
+         "sku":"pum008",
+         "name":"Puma R78",
+         "description":"Black, white, pink and blue designed Puma trainer",
+         "price":45.00,
+         "category":9,
+         "rating":4.4,
+         "image_url":"https://sneakers123.s3.amazonaws.com/release/223181/puma-r78-373117-21.jpg",
+         "image":"pumar78.jpg"
+      }
+   },
+   {
+      "pk":44,
+      "model":"products.product",
+      "fields":{
+         "sku":"pum009",
+         "name":"Puma Vikky V2 SD",
+         "description":"Classic pink and white Puma design",
+         "price":35.00,
+         "category":9,
+         "rating":4.3,
+         "image_url":"https://sneakers123.s3.amazonaws.com/release/205963/puma-vikky-v2-sd-370510-06.jpg",
+         "image":"pumavikkyv2sd.jpg"
+      }
+   },
+   {
+      "pk":45,
+      "model":"products.product",
+      "fields":{
+         "sku":"pum010",
+         "name":"Puma Mile Rider Galactic",
+         "description":"White Puma trainer with hints of pink",
+         "price":110.00,
+         "category":9,
+         "rating":4.5,
+         "image_url":"https://sneakers123.s3.amazonaws.com/release/322763/puma-mile-rider-galactic-375079-01.jpg",
+         "image":"pumamileridergalactic.jpg"
+      }
+   },
+   {
+      "pk":46,
+      "model":"products.product",
+      "fields":{
+         "sku":"ree006",
+         "name":"Reebok Asap Nast Classic Legacy",
+         "description":"Brown and cream Reebok trainer",
+         "price":110.00,
+         "category":10,
+         "rating":4.2,
+         "image_url":"https://sneakers123.s3.amazonaws.com/release/261047/reebok-asap-nast-classic-legacy-0128.jpg",
+         "image":"reebokasapnastclassiclegacy.jpg"
+      }
+   },
+   {
+      "pk":47,
+      "model":"products.product",
+      "fields":{
+         "sku":"ree007",
+         "name":"Reebok Classic Leather Pearlized",
+         "description":"Beautiful leather pink Reebok Classic shoe",
+         "price":75.00,
+         "category":10,
+         "rating":4.7,
+         "image_url":"https://sneakers123.s3.amazonaws.com/release/78927/reebok-classic-leather-pearlized-bd4308.jpg",
+         "image":"reebokclassicleatherpearlized.jpg"
+      }
+   },
+   {
+      "pk":48,
+      "model":"products.product",
+      "fields":{
+         "sku":"ree008",
+         "name":"Reebok Club C 85",
+         "description":"Reebok’s Club C 85 white and pink edition",
+         "price":60.00,
+         "category":10,
+         "rating":4.4,
+         "image_url":"https://sneakers123.s3.amazonaws.com/release/318963/reebok-club-c-85-eu-35-0586.jpg",
+         "image":"reebokclubc85.jpg"
+      }
+   },
+   {
+      "pk":49,
+      "model":"products.product",
+      "fields":{
+         "sku":"ree009",
+         "name":"Reebok Face Classic Nylon",
+         "description":"Elegant pink Reebook Classic edition",
+         "price":40.00,
+         "category":10,
+         "rating":4.6,
+         "image_url":"https://sneakers123.s3.amazonaws.com/release/45469/reebok-face-classic-nylon-bd2683.jpg",
+         "image":"reebokfaceclassicnylon.jpg"
+      }
+   },
+   {
+      "pk":50,
+      "model":"products.product",
+      "fields":{
+         "sku":"ree010",
+         "name":"Reebok Ad Court",
+         "description":"White Reebok shoe with hints of blue and pink",
+         "price":60.00,
+         "category":10,
+         "rating":4.5,
+         "image_url":"https://sneakers123.s3.amazonaws.com/release/271355/reebok-ad-court-0026.jpg",
+         "image":"reebokadcourt.jpg"
+      }
+   }
+]
