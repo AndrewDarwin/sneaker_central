@@ -110,6 +110,9 @@
                             {% endwith %}
                         </div>
                     </form>
+                    {% for review in comments %}
+                    {{review.review}}
+                    {% endfor %}
                 </div>
             </div>
         </div>
