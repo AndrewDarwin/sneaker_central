@@ -110,10 +110,18 @@
                             {% endwith %}
                         </div>
                     </form>
-                    {% for review in comments %}
-                    {{review.review}}
-                    {% endfor %}
+                    {% if user.is_authenticated %}
+                        <form class="form" action="{% url 'product_add_comment' product.id %}" method="post">
+                            {% csrf_token %}
+                            {{review_form}}
+                            <input type="submit" class="btn btn-black rounded-0 text-uppercase mt-5" value="Comment">
+                        </form>
+                    {%endif%}
                 </div>
+                {% for review in comments %}
+                    Comment: ---- {{review.review}}
+                    Created by: ----- {{review.user_profile.user}}
+                {% endfor %}
             </div>
         </div>
     </div>

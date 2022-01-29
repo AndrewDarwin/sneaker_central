@@ -5,7 +5,8 @@ from django.db.models import Q
 from django.db.models.functions import Lower
 
 from .models import Product, Category, Review
-from .forms import ProductForm
+from profiles.models import UserProfile
+from .forms import ProductForm, ReviewForm
 
 # Create your views here.
 
@@ -63,13 +64,39 @@ def product_detail(request, product_id):
     """ A view to show individual product details """
 
     product = get_object_or_404(Product, pk=product_id)
-    comments=Review.objects.filter(product=product)
+    review_form = None
+    if request.user.is_authenticated:
+        user_profile = UserProfile.objects.get(user=request.user)
+        review_form = ReviewForm(initial={'product': product, 'user_profile': user_profile})
+    comments = Review.objects.filter(product=product)
     context = {
         'product': product,
-        'comments': comments
+        'comments': comments,
+        'review_form': review_form
     }
 
     return render(request, 'products/product_detail.html', context)
+
+
+def product_add_comment(request, product_id):
+    """ A view to show individual product details """
+    print(f'Review posted {request.POST}')
+    product = get_object_or_404(Product, pk=product_id)
+    review_data = ReviewForm(request.POST)
+    if review_data.is_valid():
+        review_data.save()
+    # new_comment = Review(product=product, review=request.POST.get('review'))
+    # new_comment.save()
+    comments = Review.objects.filter(product=product)
+    review_form = ReviewForm()
+    context = {
+        'product': product,
+        'comments': comments,
+        'review_form': review_form
+    }
+
+    return render(request, 'products/product_detail.html', context)
+
 
 
 @login_required
