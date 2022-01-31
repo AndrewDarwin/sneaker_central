@@ -52,7 +52,7 @@ Sneaker Central is a full-stack e-commerce site based around business logic desi
 
 * As a visitor, I want to be able to easily navigate through the site on any size screen
 
-* As a visitor, I want to know about the company
+* As a visitor, I want to know about the company:
 
 * As a visitor, I want to see an overview of all of the sneakers available, so I can see what the website is offering
 
@@ -520,25 +520,35 @@ There is a description of Sneaker Central in the footer on all pages.
 
 * As a visitor, I want to see an overview of all of the sneakers available, so I can see what the website is offering:
 
-By clicking on Sneakers, All Products the visitor can view all of the sneakers available on the store.
+By clicking on Sneakers, All Products the visitor can view all of the sneakers available on the store on a single page by scrolling down from the top.
+
+![](assets/images/userstories1.jpg)
 
 * As a visitor, I want to have the ability to sort products by price/rating/category:
 
 Sort By dropdown works and correctly displays products in the order the user has selected
 
+![](assets/images/userstories2.jpg)
+
 * As a visitor, I want to be able to search for different sneakers, so I can find specific sneakers quick and easy:
 
 The Search bar can be used for searching by product name, brand or description
+
+![](assets/images/userstories3.jpg)
 
 * As a visitor, I want to be able to view details about the sneakers (size, price, image, description), so I can see if the product suits my preferences:
 
 Each product has a set product detail page. This shows all product information including available sizes, price, image and description of product.
 
+![](assets/images/userstories4.jpg)
+
 ### Consumer goals:
 
-* As a consumer, I want to add products to my basket, so I can buy products:
+* As a consumer, I want to add products to my bag, so I can buy products:
 
 On the individual sneaker page, clicking ‘add to bag’ after choosing correct size and quantity will add the product to the basket.
+
+![](assets/images/userstories5.jpg)
 
 * As a consumer, I want to be able purchase products without an account:
 
@@ -552,17 +562,25 @@ In the Shopping Bag, the user can remove any products they do not wish to purcha
 
 The total price and shipping costs are available to view in the Shopping Bag.
 
+![](assets/images/userstories6.jpg)
+
 * As a consumer, I want to pay with a card in a safe and secure way, so I know that my payment goes well:
 
 In Secure Checkout, the user can provide their details in a safe and secure way through the stripe payment system to complete their purchase 
+
+![](assets/images/userstories7.jpg)
 
 * As a consumer, I want to receive a confirmation email of the order, so I know that the order is successfully received:
 
 Consumers will receive a confirmation email of the order to the email address they provide in checkout
 
+![](assets/images/userstories8.jpg)
+
 * As a consumer, I want to create an account, so I can see my profile details and order history:
 
 Users can create an account easily and it takes very little time to set up a secure account
+
+![](assets/images/userstories9.jpg)
 
 ### Returning consumer goals:
 
@@ -575,9 +593,13 @@ Log in process is quick and secure, and allows a user to save their log in detai
 All users, regardless of logged in status, will be able to purchase products through the site
 If a user is logged in when they process an order, it will be displayed on their profile order history
 
+![](assets/images/userstories10.jpg)
+
 * As a returning consumer, I want to be able to view my past orders and order confirmations:
 
 When a user is logged in, if they navigate to the my profile page they will be given their Order History. It will be a brief overview of the users past orders, but if they click on the order number it will take them to the order confirmation page
+
+![](assets/images/userstories11.jpg)
 
 * As a returning consumer, I want to be able to leave reviews of products:
 
@@ -592,6 +614,8 @@ I asked friends to use the site, and they were easily able to search for what th
 * As admin, I want to have the ability to add, edit/update and delete products:
 
 Add, Edit/Update and Delete functions all work correctly with no errors. After editing, correct information is displayed on the site. Deleting a product deletes it from the site entirely, including reviews that have been left, and removing it from the admin view
+
+![](assets/images/userstories12.jpg)
 
 * As admin, I want to keep the site secure by only allowing authorised users to access certain areas of the site:
 
