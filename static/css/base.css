@@ -1,3 +1,5 @@
+/*-------------------- General CSS --------------------*/
+
 html {
     height: 100%;
 }
@@ -8,6 +10,16 @@ body {
     height: calc(100vh - 164px);
     color: #555;
     font-family: Tahoma, Helvetica, sans-serif;
+}
+
+.overlay {
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	position: fixed;
+	background: white;
+	z-index: -1;
 }
 
 /* from Bulma */
@@ -26,6 +38,8 @@ body {
 .main-logo-link {
     width: fit-content;
 }
+
+/*-------------------- Buttons and Badges --------------------*/
 
 .shop-now-button {
     background: black;
@@ -71,16 +85,6 @@ body {
 
 .bg-black {
     background: #000 !important;
-}
-
-.overlay {
-	height: 100%;
-	width: 100%;
-	top: 0;
-	left: 0;
-	position: fixed;
-	background: white;
-	z-index: -1;
 }
 
 a.category-badge > span.badge:hover {
@@ -340,6 +344,7 @@ input[name='q']::placeholder {
     background-color: black;
     margin-top: auto;
     width: 100%;
+    bottom: 0;
 }
 
 .footer-text {

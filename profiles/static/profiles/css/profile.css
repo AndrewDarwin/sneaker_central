@@ -1,7 +1,11 @@
+/*-------------------- Order History --------------------*/
+
 .order-history {
-    max-height: 416px; /* height of profile form + submit button */
+    max-height: 416px; 
     overflow-y: auto;
 }
+
+/*-------------------- Profile Form --------------------*/
 
 #profile-update-form .form-control {
     color: #000;

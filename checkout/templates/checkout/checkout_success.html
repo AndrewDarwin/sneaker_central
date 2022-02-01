@@ -15,7 +15,9 @@
 
 {% block content %}
     <div class="overlay"></div>
+    <!----- Checkout Success Page --------------------------------->
     <div class="container">
+        <!----- Heading Text ----->
         <div class="row">
             <div class="col">
                 <hr>
@@ -24,7 +26,7 @@
                 <p class="text-black">Your order details are below. We will send a confirmation email to <strong>{{ order.email }}</strong>.</p>
             </div>
         </div>
-
+        <!----- Order Confirmation Display ------------------------>
         <div class="row">
             <div class="col-12 col-lg-7">
                 <div class="order-confirmation-wrapper p-2 border">
@@ -33,7 +35,7 @@
                             <small class="text-muted">Order Information:</small>
                         </div>
                     </div>
-
+                    <!----- Order Number ----->
                     <div class="row">
                         <div class="col-12 col-md-4">
                             <p class="mb-0 text-black font-weight-bold">Order Number</p>
@@ -42,7 +44,7 @@
                             <p class="mb-0">{{ order.order_number }}</p>
                         </div>
                     </div>
-
+                    <!----- Order Date ----->
                     <div class="row">
                         <div class="col-12 col-md-4">
                             <p class="mb-0 text-black font-weight-bold">Order Date</p>
@@ -51,7 +53,7 @@
                             <p class="mb-0">{{ order.date }}</p>
                         </div>
                     </div>
-
+                    <!----- Order Product Details ----->  
                     <div class="row">
                         <div class="col">
                             <small class="text-muted">Order Details:</small>
@@ -70,13 +72,13 @@
                         </div>
                     </div>
                     {% endfor %}
-
+                    <!----- Delivery Information Section ----->
                     <div class="row">
                         <div class="col">
                             <small class="text-muted">Delivering To:</small>
                         </div>
                     </div>
-
+                    <!----- Customer Name ----->
                     <div class="row">
                         <div class="col-12 col-md-4">
                             <p class="mb-0 text-black font-weight-bold">Full Name</p>
@@ -85,7 +87,7 @@
                             <p class="mb-0">{{ order.full_name }}</p>
                         </div>
                     </div>
-
+                    <!----- Address Details ----->
                     <div class="row">
                         <div class="col-12 col-md-4">
                             <p class="mb-0 text-black font-weight-bold">Address 1</p>
@@ -154,13 +156,13 @@
                             <p class="mb-0">{{ order.phone_number }}</p>
                         </div>
                     </div>
-
+                    <!----- Billing Info ----->
                     <div class="row">
                         <div class="col">
                             <small class="text-muted">Billing Info:</small>
                         </div>
                     </div>
-
+                    <!----- Order Total ----->
                     <div class="row">
                         <div class="col-12 col-md-4">
                             <p class="mb-0 text-black font-weight-bold">Order Total</p>
@@ -169,16 +171,16 @@
                             <p class="mb-0">{{ order.order_total }}</p>
                         </div>
                     </div>
-
+                    <!----- Delivery Cost ----->
                     <div class="row">
                         <div class="col-12 col-md-4">
-                            <p class="mb-0 text-black font-weight-bold">Delivery</p>
+                            <p class="mb-0 text-black font-weight-bold">Delivery Charges</p>
                         </div>
                         <div class="col-12 col-md-8 text-md-right">
                             <p class="mb-0">{{ order.delivery_cost }}</p>
                         </div>
                     </div>
-
+                    <!----- Grand Total ----->
                     <div class="row">
                         <div class="col-12 col-md-4">
                             <p class="mb-0 text-black font-weight-bold">Grand Total</p>
@@ -190,6 +192,7 @@
                 </div>
             </div>
         </div>
+        <!----- Order Confirmation Buttons ------------------------>
         <div class="row">
 			<div class="col-12 col-lg-7 text-right">
                 {% if from_profile %}
