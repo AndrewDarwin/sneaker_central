@@ -9,7 +9,7 @@ body {
     background-size: cover;
     height: calc(100vh - 164px);
     color: #555;
-    font-family: Tahoma, Helvetica, sans-serif;
+    font-family: Tahoma, sans-serif;
 }
 
 .overlay {

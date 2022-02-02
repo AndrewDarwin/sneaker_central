@@ -131,8 +131,8 @@
                     {%endif%}
                 </div>
                 {% for review in comments %}
-                    Comment: ---- {{review.review}}
-                    Created by: ----- {{review.user_profile.user}}
+                    Comment: {{review.review}}
+                    Created by: {{review.user_profile.user}}
                 {% endfor %}
             </div>
         </div>

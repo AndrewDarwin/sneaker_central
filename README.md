@@ -659,6 +659,8 @@ This project was deployed through Heroku using the following steps:
 
 The following variables all need to be added:
 
+![](assets/images/configvars.jpg)
+
 ### Heroku Postgres Database
 
 * Go to the resources tab in Heroku.
