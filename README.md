@@ -296,8 +296,6 @@ I have used the tahoma font on the site, as I think it’s a beautiful and uniqu
 
 * Django - Used as the main framework
 
-* Bootstrap 5 - Used for the responsive layout and various classes
-
 * Google Fonts - Used for the fonts on the site
 
 * Font Awesome - Used for Icons that are displayed throughout the site
@@ -333,6 +331,11 @@ I have used the tahoma font on the site, as I think it’s a beautiful and uniqu
 * Pillow - The Python Imaging Library adds image processing capabilities to your Python interpreter. This library provides extensive file format support, an efficient internal representation, and powerful image processing capabilities
 
 * boto3 - Boto is the Amazon Web Services (AWS) SDK for Python. It enables Python developers to create, configure, and manage AWS services, such as EC2 and S3.
+
+## Database schema/model
+
+![](assets/images/ms4databaseschema.jpg)
+
 
 # 4. Testing
 
