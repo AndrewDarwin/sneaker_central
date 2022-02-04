@@ -8,6 +8,10 @@ Github link - https://github.com/AndrewDarwin/sneaker_central
 
 Sneaker Central is a full-stack e-commerce site based around business logic designed for users to purchase sneakers from the store. The application’s purpose to create a web shop to sell sneakers. The value it provides to users is to offer them a selection of sneakers in a simple, easy to use interface and a secure check-out to purchase them.
 
+![](assets/images/sneakercentralmockup.jpg)
+
+Mockup image taken from - https://techsini.com/multi-mockup
+
 # 1. User experience (UX)
 
 ## UX - Five UX Planes
@@ -166,9 +170,11 @@ Here below are some wireframes I created for Sneaker Central;
 
 As there’s a lot of colour on the site in terms of the product images of the sneakers, I decided that the images would provide the main colour to the site. So the only 2 colours I used in design were white and black. I wanted the site to have a simple, clean, fresh feel and be easy to view/navigate, so in my opinion these 2 colours were perfect for that. 
 
+I liked the general theme of the runthrough Code Institute Boutique Ado site, and I retained similar characteristics, style and layout, using it as inspiration as it fitted the fresh style and image I wanted to adopt for Sneaker Central. I feel the black and white theme of that site fits well on Sneaker Central with firstly the logo, and secondly the image on the homepage, whilst the white background of the remaining pages offers nice, crisp, clean pages which allow the product images to stand out visually. 
+
 * White - This was the background colour used for all of my pages. I didn't want any other colours as it would have detracted from the bright colours of the product images.
 
-* Black - I used black as the colour of the text. As I had a white background I chose black to stand out the most.
+* Black - I used black as the colour of the text, nav bar and footer. As I had a white background I chose black to stand out the most.
 
 ### Images
 
@@ -773,7 +779,7 @@ You will need to install all of the packages listed in the requirements file you
 
 ## Code
 
-I followed the course walkthrough project "Boutique Ado" by Code Institute which helped me massively in setting up and helping to code my project. I liked the layout and general theme of this site, and retained similar characteristics, using it as inspiration.
+I followed the course walkthrough project "Boutique Ado" by Code Institute which helped me massively in setting up and helping to code my project. I liked the general theme of the Boutique Ado site, and retained similar characteristics, style and layout, using it as inspiration as it fitted the fresh style and image I wanted to adopt for Sneaker Central. I feel the black and white theme of the site fits well with firstly the logo, and secondly the image on the homepage, whilst the white background of the remaining pages offers nice, crisp, clean pages which allow the product images to stand out visually. 
 
 ## Images
 

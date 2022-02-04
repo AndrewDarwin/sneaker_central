@@ -46,6 +46,12 @@
                     {% else %}
                         <small class="text-muted">No Rating</small>
                     {% endif %}
+                    {% if is_on_wishlist %}
+                        <small class="text-muted">SAVED!</small>
+                    {% else %}
+                        <br/>
+                        <a href="{% url 'product_add_to_wishlist' product.id %}"><small class="text-muted">Add to wishlist!</small></a>
+                    {% endif %}
                     <!----- Edit/Delete Product Option for Superusers ----->
                     {% if request.user.is_superuser %}
                         <small class="ml-3">

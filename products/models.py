@@ -41,3 +41,13 @@ class Review(models.Model):
 
     def __str__(self):
         return self.product.name
+
+class WishList(models.Model):
+    product = models.ManyToManyField(
+        Product, related_name='products_list')
+    user_profile = models.ForeignKey(UserProfile, on_delete=models.CASCADE)
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
+
+    def __str__(self):
+        return self.user_profile.user.username

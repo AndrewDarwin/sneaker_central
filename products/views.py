@@ -4,7 +4,7 @@ from django.contrib.auth.decorators import login_required
 from django.db.models import Q
 from django.db.models.functions import Lower
 
-from .models import Product, Category, Review
+from .models import Product, Category, Review, WishList
 from profiles.models import UserProfile
 from .forms import ProductForm, ReviewForm
 
@@ -65,14 +65,22 @@ def product_detail(request, product_id):
 
     product = get_object_or_404(Product, pk=product_id)
     review_form = None
+    is_on_wishlist = False
     if request.user.is_authenticated:
         user_profile = UserProfile.objects.get(user=request.user)
         review_form = ReviewForm(initial={'product': product, 'user_profile': user_profile})
+        try:
+            user_wishlist = WishList.objects.get(user_profile__user=request.user)
+            is_on_wishlist = product in user_wishlist.product.all()
+        except WishList.DoesNotExist as e:
+            pass
     comments = Review.objects.filter(product=product)
+    print(f'product is in wishlist {is_on_wishlist}')
     context = {
         'product': product,
         'comments': comments,
-        'review_form': review_form
+        'review_form': review_form,
+        'is_on_wishlist': is_on_wishlist
     }
 
     return render(request, 'products/product_detail.html', context)
@@ -96,6 +104,17 @@ def product_add_comment(request, product_id):
     }
 
     return render(request, 'products/product_detail.html', context)
+
+
+
+def product_add_to_wishlist(request, product_id):
+    """ A view to show individual product details """
+    product = get_object_or_404(Product, pk=product_id)
+    user_profile = UserProfile.objects.get(user=request.user)
+    user_wishlist, created = WishList.objects.get_or_create(user_profile=user_profile)
+    user_wishlist.product.add(product)
+    user_wishlist.save()
+    return redirect(reverse('product_detail', kwargs={'product_id': product_id}))
 
 
 

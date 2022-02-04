@@ -82,6 +82,13 @@
                     </table>
                 </div>
             </div>
+
+            {%if wishlist%}
+                <h2> WishList: </h2>
+                {%for product in wishlist.product.all%}
+                    <h3> {{product.name}}</h3>
+                {%endfor%}
+            {%endif%}
         </div>
     </div>
 {% endblock %}
