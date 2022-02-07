@@ -83,15 +83,22 @@
                 </div>
             </div>
 
-            {%if wishlist%}
-                <h2> WishList: </h2>
-                {%for product in wishlist.product.all%}
-                    <h3> {{product.name}}</h3>
-                {%endfor%}
-            {%endif%}
+             <!----- Wishlist ----->
+             <div class="col-12 col-lg-6">
+                <h3 class="text-muted">Wishlist</h3>
+                <!----- Wishlist Table ----->
+                <div class="table-responsive">
+                    <!----- Table Headers ----->
+                    {%if wishlist%}
+                    {%for product in wishlist.product.all%}
+                        <p><a href="{% url 'product_detail' product.id %}"> {{product.name}}</a> </p>
+                    {%endfor%}
+                {%endif%}
+            </div>
         </div>
     </div>
-{% endblock %}
+</div>
+    {% endblock %}
 
 {% block postloadjs %}
 

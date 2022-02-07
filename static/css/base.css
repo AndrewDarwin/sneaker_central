@@ -300,7 +300,7 @@ input[name='q']::placeholder {
     }
 
     .nav-link {
-        padding: 0.15rem;
+        padding: 0.05rem;
     }
 
     .nav-link i.fa-lg {
@@ -337,6 +337,10 @@ input[name='q']::placeholder {
     text-align: center;
      background-color: white;
   }
+
+  .main-logo {
+    max-height: 55px;
+}
 
 /*-------------------- Footer --------------------*/
 

@@ -127,6 +127,7 @@
                             {% endwith %}
                         </div>
                     </form>
+                    <br>
                     <!----- Product Reviews Section ------------------------------->
                     {% if user.is_authenticated %}
                         <form class="form" action="{% url 'product_add_comment' product.id %}" method="post">

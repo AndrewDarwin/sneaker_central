@@ -8,7 +8,7 @@ from .models import Product, Category, Review, WishList
 from profiles.models import UserProfile
 from .forms import ProductForm, ReviewForm
 
-# Create your views here.
+# Views
 
 def all_products(request):
     """ A view to show all products, including sorting and search queries """
