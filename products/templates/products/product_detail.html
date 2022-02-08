@@ -133,7 +133,7 @@
             </br>
                     <!----- Product Reviews Section ------------------------------->
                     {% if user.is_authenticated %}
-                        <form class="form" action="{% url 'product_add_comment' product.id %}" method="post">
+                        <form class="form" action="{% url 'product_add_comment' product.id %}" method="POST">
                             {% csrf_token %}
                             {{review_form}}
                             <input type="submit" class="btn btn-black rounded-0 text-uppercase mt-5" value="Add Review">

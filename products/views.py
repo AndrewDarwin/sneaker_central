@@ -94,8 +94,10 @@ def product_add_comment(request, product_id):
     review_data = ReviewForm(request.POST)
     # if review_data.is_valid():
     #     review_data.save()
-    new_comment = Review(product=product, review=request.POST.get('review'), user_profile=user_profile)
-    new_comment.save()
+    if request.method == 'POST':
+        new_comment = Review(product=product, review=request.POST.get('review'), user_profile=user_profile)
+        new_comment.save()
+
     comments = Review.objects.filter(product=product)
     review_form = ReviewForm()
     context = {
