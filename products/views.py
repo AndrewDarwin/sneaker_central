@@ -90,11 +90,12 @@ def product_add_comment(request, product_id):
     """ A view to show individual product details """
     print(f'Review posted {request.POST}')
     product = get_object_or_404(Product, pk=product_id)
+    user_profile = UserProfile.objects.get(user=request.user)
     review_data = ReviewForm(request.POST)
-    if review_data.is_valid():
-        review_data.save()
-    # new_comment = Review(product=product, review=request.POST.get('review'))
-    # new_comment.save()
+    # if review_data.is_valid():
+    #     review_data.save()
+    new_comment = Review(product=product, review=request.POST.get('review'), user_profile=user_profile)
+    new_comment.save()
     comments = Review.objects.filter(product=product)
     review_form = ReviewForm()
     context = {

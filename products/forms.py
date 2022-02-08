@@ -23,6 +23,7 @@ class ProductForm(forms.ModelForm):
 class ReviewForm(forms.ModelForm):
 
 
+    review = forms.CharField(widget=forms.Textarea, label='')
     class Meta:
         model = Review
         fields = ['review', 'product', 'user_profile']

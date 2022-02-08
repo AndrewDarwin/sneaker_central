@@ -8,7 +8,7 @@ Github link - https://github.com/AndrewDarwin/sneaker_central
 
 Sneaker Central is a full-stack e-commerce site based around business logic designed for users to purchase sneakers from the store. The application’s purpose to create a web shop to sell sneakers. The value it provides to users is to offer them a selection of sneakers in a simple, easy to use interface and a secure check-out to purchase them.
 
-![](assets/images/sneakercentralmockup.jpg)
+![](assets/images/sneakercentralmockupnew.jpg)
 
 Mockup image taken from - https://techsini.com/multi-mockup
 
@@ -286,6 +286,22 @@ I have used the tahoma font on the site, as I think it’s a beautiful and uniqu
 
 * Option to remove and add an image to the product
 
+### 2 original custom Django models
+
+The 2 original custom Django models I created were a Comments/Review model and a Wishlist model. 
+
+The Wishlist model helps users who are registered and logged in decide on sneakers they like to save them for future reference. When logged in, and viewing the product page, there is an 'Add To Wishlist' button, which when clicked changes to 'SAVED!' - the user can then navigate to their 'My Profile' page and see the product(s) they have saved on their Wishlist, and click on them to be taken directly to each product on the list. 
+
+![](assets/images/wishlistmodel.jpg)
+
+The Reviews/Comments model allows users who are registered and logged in to leave a review/comment on any of the products on the store. Although any users who visit the store can see the comments, it is necessary to be logged in ir order to post a comment. 
+
+![](assets/images/reviewsmodel.jpg)
+
+## Future Features
+
+After speaking with Student Care who spoke to the The Assessment team they noted that whilst it would be ideal to have full CRUD for all models created, if I were to go ahead with just Create for both of the original models (which I had to because of time constraints pre deadline), it would be fine from a criteria perspective. For ideal functionality, in the future I will add CRUD functionality to both of my original models - wishlist and reviews, but to confirm that whilst there is only Create in place for both Wishlist and Review models, there is full CRUD functionality on the Products model for this project. 
+
 # 3. Technologies Used
 
 ## Languages
@@ -516,6 +532,8 @@ The responsiveness of the site was tested across a mixture of desktop, and mobil
 * Edit product button successfully amends the product information and/or image, directs the admin to the product details page and displays the edited information
 
 ## User Stories Testing
+
+* Please note, all of the screenshots below in User Stories were taken before changing the Sneaker Central logo in the top left of the header. 
 
 ### Visitor goals:
 
@@ -788,6 +806,10 @@ I followed the course walkthrough project "Boutique Ado" by Code Institute which
 * All product photos are taken from https://sneakers123.com/en/sneaker/ 
 
 * Home page hero image is taken from www.pexels.com
+
+* Sneaker Central logo below, which I used in the header, I designed using https://www.tailorbrands.com/
+
+![](assets/images/sneakercentrallogo.jpg)
 
 ## Acknowledgements
 

@@ -142,8 +142,8 @@
                     </div>
                 <h3 class="text-muted">User Reviews</h3><br>
                 {% for review in comments %}
-                    <p><b>User:</b> {{review.user_profile.user}}</p>
-                    <p>{{review.review}}</p>
+                   <div style="width:100%; margin-top:10px; border:1px solid black;"> <p style="padding:10px"><b>User:</b> {{review.user_profile.user}}</p>
+                    <p style="padding:10px">{{review.review}}</p></div><br>
                     
                 {% endfor %}
             </div>
