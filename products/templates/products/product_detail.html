@@ -129,19 +129,22 @@
                             {% endwith %}
                         </div>
                     </form>
-                    <br>
+                </br>
+            </br>
                     <!----- Product Reviews Section ------------------------------->
                     {% if user.is_authenticated %}
                         <form class="form" action="{% url 'product_add_comment' product.id %}" method="post">
                             {% csrf_token %}
                             {{review_form}}
-                            <input type="submit" class="btn btn-black rounded-0 text-uppercase mt-5" value="Comment">
+                            <input type="submit" class="btn btn-black rounded-0 text-uppercase mt-5" value="Add Review">
                         </form>
                     {%endif%}
-                </div>
+                    </div>
+                <h3 class="text-muted">User Reviews</h3><br>
                 {% for review in comments %}
-                    Comment: {{review.review}}
-                    Created by: {{review.user_profile.user}}
+                    <p><b>User:</b> {{review.user_profile.user}}</p>
+                    <p>{{review.review}}</p>
+                    
                 {% endfor %}
             </div>
         </div>
