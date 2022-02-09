@@ -88,13 +88,12 @@ def product_detail(request, product_id):
 
 
 def product_add_comment(request, product_id):
-    """ A view to show individual product details """
+    """ A view to add comments """
     print(f'Review posted {request.POST}')
     product = get_object_or_404(Product, pk=product_id)
     user_profile = UserProfile.objects.get(user=request.user)
     review_data = ReviewForm(request.POST)
-    # if review_data.is_valid():
-    #     review_data.save()
+    
     if request.method == 'POST':
         new_comment = Review(product=product, review=request.POST.get('review'), user_profile=user_profile)
         new_comment.save()
@@ -111,7 +110,7 @@ def product_add_comment(request, product_id):
 
 
 def product_add_to_wishlist(request, product_id):
-    """ A view to show individual product details """
+    """ A view to add products to wishlist """
     product = get_object_or_404(Product, pk=product_id)
     user_profile = UserProfile.objects.get(user=request.user)
     user_wishlist, created = WishList.objects.get_or_create(user_profile=user_profile)

@@ -378,6 +378,8 @@ The site passed all code validation checks without any errors
 ![](assets/images/jshintvalidation.jpg)
 
 * PEP8 checker to check the python code for PEP8 requirements.
+
+I ran each python file through the PEP8 python validator. I had some line too long comments which I opted not to fix because they would break up links mid link. Other times I didn't fix the line too long out because it then threw a whitespace error which effected the functionality of the site. 
 ### Security Testing
 
 All pages were tested with a non-admin account to make sure that no access was given to those users that should not have access. This was tested by me copying the links, accessing them on an incognito browser in Google Chrome that I was not logged into, then logging into it with a non-admin user, and trying the links again. The error pops up correctly and advises the user that only admins and site owners can view that page.
