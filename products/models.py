@@ -1,6 +1,7 @@
 from django.db import models
 from profiles.models import UserProfile
 
+
 class Category(models.Model):
 
     class Meta:
@@ -41,6 +42,7 @@ class Review(models.Model):
 
     def __str__(self):
         return self.product.name
+
 
 class WishList(models.Model):
     product = models.ManyToManyField(

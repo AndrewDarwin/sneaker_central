@@ -10,6 +10,7 @@ from .forms import ProductForm, ReviewForm
 
 # Views
 
+
 def all_products(request):
     """ A view to show all products, including sorting and search queries """
 
@@ -109,7 +110,6 @@ def product_add_comment(request, product_id):
     return render(request, 'products/product_detail.html', context)
 
 
-
 def product_add_to_wishlist(request, product_id):
     """ A view to show individual product details """
     product = get_object_or_404(Product, pk=product_id)
@@ -118,7 +118,6 @@ def product_add_to_wishlist(request, product_id):
     user_wishlist.product.add(product)
     user_wishlist.save()
     return redirect(reverse('product_detail', kwargs={'product_id': product_id}))
-
 
 
 @login_required
