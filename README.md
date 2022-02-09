@@ -6,7 +6,7 @@ Website live link - https://sneakercentral.herokuapp.com/
 
 Github link - https://github.com/AndrewDarwin/sneaker_central
 
-Sneaker Central is a full-stack e-commerce site based around business logic designed for users to purchase sneakers from the store. The application’s purpose to create a web shop to sell sneakers. The value it provides to users is to offer them a selection of sneakers in a simple, easy to use interface and a secure check-out to purchase them.
+Sneaker Central is a full-stack e-commerce site based around business logic designed for users to purchase sneakers from the store. The application’s purpose is a web store to sell sneakers. The value it provides to users is to offer them a selection of sneakers in a simple, easy to use interface and a secure check-out to purchase them.
 
 ![](assets/images/sneakercentralmockupnew.jpg)
 
@@ -55,8 +55,6 @@ Mockup image taken from - https://techsini.com/multi-mockup
 ### Visitor goals:
 
 * As a visitor, I want to be able to easily navigate through the site on any size screen
-
-* As a visitor, I want to know about the company:
 
 * As a visitor, I want to see an overview of all of the sneakers available, so I can see what the website is offering
 
@@ -108,7 +106,7 @@ Sneaker Central's scope centres around a clear and fully responsive site design 
 
 ## Structure
 
-Sneaker Central’s home page includes a hero image of a pair of feet wearing Nike sneakers jumping into a puddle in a street, and a large “Shop Now” button to encourage users to purchase sneakers. The Nav bar has links to the various products on the site. In the footer, there’s an ‘About Sneaker Central” section that overviews what the site is about.
+Sneaker Central’s home page includes a hero image of a pair of feet wearing Nike sneakers jumping into a puddle in a street, and a large “Shop Now” button to encourage users to purchase sneakers. The Nav bar has links to the various products on the site. In the footer, there’s social media icons to click on that take you through to external links (in a real world these links would be Sneaker Central social media pages where the user can see more information about Sneaker Central)
 
 ### Products;
 
@@ -356,20 +354,37 @@ After speaking with Student Care who spoke to the The Assessment team they noted
 
 ## Database schema/model
 
-![](assets/images/ms4databaseschema.jpg)
+![](assets/images/ms4databaseschemanew.jpg)
 
 
 # 4. Testing
 
 ## Functionality
 
+### Code Testing/Validation
+
+The site passed all code validation checks without any errors
+
+* W3C Markup Validation Service to check for markup validity.
+
+![](assets/images/htmlvalidation.jpg)
+
+* W3C CSS Validation Service to check the CSS-code.
+
+![](assets/images/cssvalidation.jpg)
+
+* JSHint to check the Javascript code.
+
+![](assets/images/jshintvalidation.jpg)
+
+* PEP8 checker to check the python code for PEP8 requirements.
 ### Security Testing
 
 All pages were tested with a non-admin account to make sure that no access was given to those users that should not have access. This was tested by me copying the links, accessing them on an incognito browser in Google Chrome that I was not logged into, then logging into it with a non-admin user, and trying the links again. The error pops up correctly and advises the user that only admins and site owners can view that page.
 
 ### Responsiveness
 
-The responsiveness of the site was tested across a mixture of desktop, and mobile devices. I found no issues with any elements of the site when testing this.
+The responsiveness of the site was tested across a mixture of desktop, and mobile devices. I found no issues with any elements of the site when testing this. The site is fully responsive on screens over 320, there are some minor issues on screens below 320 (such as Iphone 4 and Galaxy Fold), and after having spoken with my mentor Antonio, he said not to worry about this and that as responsiveness is fine over 320, this is fine.
 
 ### General Functionality Testing
 
@@ -540,10 +555,6 @@ The responsiveness of the site was tested across a mixture of desktop, and mobil
 * As a visitor, I want to be able to easily navigate through the site on any size screen:
 
 Full responsiveness has been tested thoroughly and all screen sizes are fully working for easy navigation
-
-* As a visitor, I want to know about the company:
-
-There is a description of Sneaker Central in the footer on all pages.
 
 * As a visitor, I want to see an overview of all of the sneakers available, so I can see what the website is offering:
 
@@ -820,3 +831,7 @@ I followed the course walkthrough project "Boutique Ado" by Code Institute which
 ## Disclaimer!
 
 * This website was developed for educational purposes only.
+
+## Final note
+
+* As a final note, from a personal perspective, having spent around 5-600 hours working on this project in the last 2 months, I can safely say it is the hardest I've ever worked on any single project. I've given it my everything, at times pushing my brain to its limits, and I feel like I've learnt a lot in the process, especially from my mentor Antonio and tutor support at Code Institute.
